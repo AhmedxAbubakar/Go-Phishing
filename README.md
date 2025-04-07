@@ -15,3 +15,4 @@ A lightweight Python tool that scans email body text for common phishing indicat
 git clone https://github.com/AhmedxAbubakar/Go-Phishing.git
 cd Go-Phishing
 python3 phishing_analyzer.py
+
