@@ -1,18 +1,28 @@
-# Go-Phishing 🐟
+# 🛡️ Phishing Email Analyzer
 
-A lightweight Python tool that scans email body text for common phishing indicators such as suspicious links, urgent language, and social engineering tactics.
+This is a Python-based phishing detection tool that scans email bodies for common phishing indicators using regular expressions and a basic scoring system.
 
 ## 🚀 Features
-- Detects suspicious URLs
-- Flags common phishing keywords
-- Quick analysis from the terminal
 
-## 📦 Requirements
-- Python 3.x
+- Detects suspicious elements such as:
+  - URLs and shortened links (e.g., bit.ly, tinyurl)
+  - Urgent language and social engineering tactics
+  - Trigger phrases (e.g., "verify account", "click here")
+  - Attachments or file references
+  - Possible spoofing patterns
 
-## 🛠️ How to Use
-```bash
-git clone https://github.com/AhmedxAbubakar/Go-Phishing.git
-cd Go-Phishing
-python3 phishing_analyzer.py
+- Outputs a **risk level**: Low, Medium, or High
+- Provides details on what was detected
 
+---
+
+## 🧪 How to Use
+
+1. **Install Python** (if not already installed):  
+   [Download Python](https://www.python.org/downloads/)
+
+2. **Clone or copy this script** to your local machine.
+
+3. **Run the script**:
+   ```bash
+   python phishing_analyzer.py
